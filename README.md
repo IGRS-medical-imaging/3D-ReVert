@@ -5,4 +5,5 @@
 <p  align="center">  
 `Abstract'. Single-view surface reconstruction (SVR) of the vertebra is a technique used to reconstruct the 3D surface from a single 2D radiograph. This has great potential to improve Minimally Invasive Spine Surgery (MISS) and Mixed Reality (MR) assisted spine surgeries by providing real time 3D anatomical context in surgical field of view from a single radiograph, thereby reducing radiation exposure.
 
-`Problem Statement`: SVR remains underexplored due to the inherent challenges of recovering one dimension of missing information from a single 2D view and the lack of open source datasets. To address this, we present a novel SVR architecture, 3D-ReVert, that combines a ResNet-18 encoder with a Dynamic Graph Convolutional Neural Network (DGCNN) decoder.
+`Problem Statement`: Given a 2D radiograph, a 3D surface reconstruction of the lumbar vertebra provides real time intraoperative 3D context during Minimally Invasive Spine Surgeries(MISS). 
+`Method`: 
