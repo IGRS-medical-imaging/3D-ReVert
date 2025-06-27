@@ -64,4 +64,4 @@ Mesh/
   <img src="Methodology.jpg">
 </p>
 <div align = "center">
-  
+  :small_orange_diamond: 3D-ReVert architecture consisting a ResNet-18 encoder and a DGCNN decoder
