@@ -46,6 +46,7 @@ Mesh/
 ├── ...
 ```
 </details>
+
 ## <div align="center">Methodology</div>
 <p align="center">
   <img src="Methodology.jpg">
