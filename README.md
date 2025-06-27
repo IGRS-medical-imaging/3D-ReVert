@@ -3,8 +3,7 @@
 </h1>
 
 <p  align="center">  
- `Abstract`: Single-view surface reconstruction (SVR) of the vertebra is a technique used to reconstruct the 3D surface from a single 2D radiograph...
-</p>
+ 
 `Abstract`:Single-view surface reconstruction (SVR) of the vertebra is a technique used to reconstruct the 3D surface from a single 2D radiograph. This has great potential to improve Minimally Invasive Spine Surgery (MISS) and Mixed Reality (MR) assisted spine surgeries by providing real time 3D anatomical context in surgical field of view from a single radiograph, thereby reducing radiation exposure.
 
 
