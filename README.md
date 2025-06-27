@@ -3,7 +3,7 @@
 
 <p  align="center">  
  
-`Abstract`:`Abstract`. Intraoperative imaging during Minimally Invasive Spine Surgery (MISS) typically relies on C-arm fluoroscopy, which generates 2D X-ray images of the vertebrae but lacks depth information. While preoperative CT scans offer detailed 3D anatomical insights, their use during surgery is often impractical due to limitations in space and equipment mobility, making the availability of real-time 3D anatomical context during the procedure incomplete and challenging.
+`Abstract`:Intraoperative imaging during Minimally Invasive Spine Surgery (MISS) typically relies on C-arm fluoroscopy, which generates 2D X-ray images of the vertebrae but lacks depth information. While preoperative CT scans offer detailed 3D anatomical insights, their use during surgery is often impractical due to limitations in space and equipment mobility, making the availability of real-time 3D anatomical context during the procedure incomplete and challenging.
 
 `Problem Statement`: Reconstruction of 3D surface model of the lumbar vertebrae from a single 2D Radiograph for real-time 3D anatomical context for more informative tracking and guidance.
 
@@ -22,3 +22,32 @@
   :diamond_shape_with_a_dot_inside: Mesh
 
 </div>
+Sub-directory-based arrangement:
+```
+DRR/
+├── verse004_segment_20/
+│  ├── rendering/
+│    ├── 00.png
+│    ├── 01.png
+│    ├── 02.png
+│    └── ...
+├──verse005_segment_20/
+│   ├── rendering/
+│   │   ├── 00.png
+│   │   ├── 01.png
+│   │   ├── ...
+│   │   └── 23.png
+├── ...  
+│   └── ...
+Mesh/
+├── verse004_segment_20.stl/..
+├── verse005_segment_20.stl/..
+├── ...
+```
+</details>
+## <div align="center">Methodology</div>
+<p align="center">
+  <img src="methodology.jpg">
+</p>
+<div align = "center">
+  
