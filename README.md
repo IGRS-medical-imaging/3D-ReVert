@@ -22,6 +22,18 @@
   :diamond_shape_with_a_dot_inside: Mesh
 
 </div>
+
+<h2 align="center">Dataset</h2>
+<details>
+
+You can download the dataset from the following link:
+
+🔗 [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) 
+
+We present an open-source dataset for SVR of lumbar vertebrae comprising of 475 unique mesh–DRR pairs. For each mesh, DRRs are rendered from 24 diverse view-points, resulting in an
+augmented dataset of 11,400 mesh–DRR pair  
+   - The 3DReVert-dataset is split into train, validation and test data in the70:20:10 split
+
 Sub-directory-based arrangement:
 
 ```
