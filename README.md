@@ -1,16 +1,24 @@
-# 3D-ReVert
 <h1 align="center">3D-ReVert: 3D Reconstruction of Vertebrae from a Single Radiograph for Minimally Invasive Spine Surgery
 </h1>
 
 <p  align="center">  
  
-`Abstract`:Single-view surface reconstruction (SVR) of the vertebra is a technique used to reconstruct the 3D surface from a single 2D radiograph. This has great potential to improve Minimally Invasive Spine Surgery (MISS) and Mixed Reality (MR) assisted spine surgeries by providing real time 3D anatomical context in surgical field of view from a single radiograph, thereby reducing radiation exposure.
-
+`Abstract`:`Abstract`. Intraoperative imaging during Minimally Invasive Spine Surgery (MISS) typically relies on C-arm fluoroscopy, which generates 2D X-ray images of the vertebrae but lacks depth information. While preoperative CT scans offer detailed 3D anatomical insights, their use during surgery is often impractical due to limitations in space and equipment mobility, making the availability of real-time 3D anatomical context during the procedure incomplete and challenging.
 
 `Problem Statement`: Reconstruction of 3D surface model of the lumbar vertebrae from a single 2D Radiograph for real-time 3D anatomical context for more informative tracking and guidance.
 
 `Method`: We propose 3DReVert, a novel deep learning framework to obtain the surface reconstruction of the lumbar vertebrae from the 2D DRRs. Our generated dataset [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) consisting of DRR-Mesh pairs is used to train our model.
 
 `Results`: . The surface reconstructed using the 3DReVert framework achieves a Dice Score of 80% and an HD95 of 2.06 mm, demonstrating a clinical accuracy well within the 2 mm threshold.
- 
 
+ </p>
+<h3 > <i>Index Terms</i> </h3> 
+
+  :diamond_shape_with_a_dot_inside: Minimally Invasive Spine Surgery (MISS)
+  :diamond_shape_with_a_dot_inside: Single view Surface Reconstruction(SVR)
+  :diamond_shape_with_a_dot_inside: Digitally Reconstructed Radiograph (DRR) 
+  :diamond_shape_with_a_dot_inside: Dynamic Graph CNNs
+  :diamond_shape_with_a_dot_inside: Point Cloud 
+  :diamond_shape_with_a_dot_inside: Mesh
+
+</div>
