@@ -23,6 +23,7 @@
 
 </div>
 Sub-directory-based arrangement:
+
 ```
 DRR/
 ├── verse004_segment_20/
@@ -47,7 +48,7 @@ Mesh/
 </details>
 ## <div align="center">Methodology</div>
 <p align="center">
-  <img src="methodology.jpg">
+  <img src="Methodology.jpg">
 </p>
 <div align = "center">
   
