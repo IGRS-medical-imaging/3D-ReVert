@@ -109,7 +109,7 @@ python -m venv revert_env
 ```bash
 pip install -r requirements.txt
 ```
-:arrow_right: Compile PyTorch 3rd party modules
+:arrow_right: Chamfer Distance Compilation
 ```bash
 cd utils/ChamferDistancePytorch/chamfer3D
 python setups.py install
