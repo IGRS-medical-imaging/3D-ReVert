@@ -35,7 +35,6 @@ You can download the dataset from the following link:
 We present an open-source dataset for SVR of lumbar vertebrae comprising 475 unique mesh–DRR pairs.  
 For each mesh, DRRs are rendered from 24 diverse viewpoints, resulting in an augmented dataset of 11,400 mesh–DRR pairs.
 
-The 3DReVert-dataset is split into training, validation, and test sets in a 70:20:10 ratio.
 
 **Sub-directory-based arrangement:**
 
@@ -67,12 +66,14 @@ Mesh/
 
 To run the **3DReVert** project, ensure your environment meets the following requirements:
 
-### ✅ System Requirements
+<details>
+<summary><strong>✅ System Requirements</strong></summary>
 - GPU: **NVIDIA RTX 4090** or equivalent
 - CUDA: **Version 11.8**
 - Python: **Recommended 3.10+**
 - PyTorch: **2.5.1**
 - Visual Studio: **2019**
+</details>
 
 <details>
 <summary><strong>✅ PyTorch3D Installation</strong></summary>
