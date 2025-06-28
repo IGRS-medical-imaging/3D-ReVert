@@ -65,7 +65,7 @@ Mesh/
 ## <div align="center">Pre-requisites</div>
 
 
-To run the **3DReVert** project, please ensure your environment meets the following requirements:
+To run the **3DReVert** project, ensure your environment meets the following requirements:
 
 ### ✅ System Requirements
 - GPU: **NVIDIA RTX 4090** or equivalent
@@ -88,4 +88,11 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 ---
 </details>
 
+## <div align="center">Demo</div>
+
+To run the demo, 
+
+```bash
+python sit_demo.py -c configs/3DReVert.yaml -gpu 0
+```
 
