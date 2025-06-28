@@ -21,9 +21,10 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
   :small_orange_diamond: 3D-ReVert architecture consisting a ResNet-18 encoder and a DGCNN decoder
  </p>
 
+</div>
 
+</details>
 <h2 align="center">Dataset</h2>
-
 <details>
  
 <summary><b>Details</b></summary>
