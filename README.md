@@ -3,7 +3,7 @@
 
 <p  align="center">  
  
-Intraoperative imaging during Minimally Invasive Spine Surgery (MISS) typically relies on C-arm fluoroscopy, which generates 2D X-ray images of the vertebrae but lacks depth information. While preoperative CT scans offer detailed 3D anatomical insights, their use during surgery is often impractical due to limitations in space and equipment mobility, making the availability of real-time 3D anatomical context during the procedure incomplete and challenging. We propose 3DReVert, a novel deep learning framework to obtain the surface reconstruction of the lumbar vertebrae from the 2D DRRs. The dataset required for training 3D-ReVert can be downloaded from: [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) 
+Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses C-arm fluoroscopy, which provides only 2D views without depth. Although preoperative CT scans offer 3D anatomical detail, their intraoperative use is limited by space and equipment constraints. To address the lack of real-time 3D context, we propose 3DReVert, a novel deep learning framework for reconstructing lumbar vertebra surfaces from 2D DRRs. The dataset required for training 3D-ReVert can be downloaded from: [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) 
 <h3 > <i>Index Terms</i> </h3> 
 
   :diamond_shape_with_a_dot_inside: Minimally Invasive Spine Surgery (MISS)
@@ -30,8 +30,8 @@ You can download the dataset from the following link:
 🔗 [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) 
 
 We present an open-source dataset for SVR of lumbar vertebrae comprising of 475 unique mesh–DRR pairs. For each mesh, DRRs are rendered from 24 diverse view-points, resulting in an
-augmented dataset of 11,400 mesh–DRR pair  
-   - The 3DReVert-dataset is split into train, validation and test data in the70:20:10 split
+augmented dataset of 11,400 mesh–DRR pairs.  
+- The 3DReVert-dataset is split into train, validation and test data in a 70:20:10 split.
 
 Sub-directory-based arrangement:
 
