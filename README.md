@@ -62,5 +62,27 @@ Mesh/
 ```
 </details>
 
+## <div align="center">Pre-requisites</div>
 
+
+To run the **3DReVert** project, please ensure your environment meets the following requirements:
+
+### ✅ System Requirements
+- GPU: **NVIDIA RTX 4090** or equivalent
+- CUDA: **Version 11.8**
+- Python: **Recommended 3.10+**
+- PyTorch: **2.4.1**
+- Visual Studio: **2019**
+
+### ✅ PyTorch3D Installation
+
+PyTorch3D is required and must be installed from source to match CUDA 12.2 and Torch 2.4.1:
+
+```bash
+pip install "git+https://github.com/facebookresearch/pytorch3d.git"
+```
+
+> **Note:** Ensure `torch`, `torchvision`, and `torchaudio` are installed *before* installing PyTorch3D.
+
+---
 
