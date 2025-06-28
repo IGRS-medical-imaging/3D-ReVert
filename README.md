@@ -23,17 +23,19 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
 
 
 <h2 align="center">Dataset</h2>
+
 <details>
+<summary><b>Details</b></summary>
 
-You can download the dataset from the following link:
+You can download the dataset from the following link:  
+🔗 <a href="https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing" target="_blank">3DReVert-Dataset</a>  
 
-🔗 [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) 
+We present an open-source dataset for SVR of lumbar vertebrae comprising 475 unique mesh–DRR pairs.  
+For each mesh, DRRs are rendered from 24 diverse viewpoints, resulting in an augmented dataset of 11,400 mesh–DRR pairs.
 
-We present an open-source dataset for SVR of lumbar vertebrae comprising of 475 unique mesh–DRR pairs. For each mesh, DRRs are rendered from 24 diverse view-points, resulting in an
-augmented dataset of 11,400 mesh–DRR pairs.  
-- The 3DReVert-dataset is split into train, validation and test data in a 70:20:10 split.
+The 3DReVert-dataset is split into training, validation, and test sets in a 70:20:10 ratio.
 
-Sub-directory-based arrangement:
+**Sub-directory-based arrangement:**
 
 ```
 DRR/
