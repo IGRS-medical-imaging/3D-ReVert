@@ -74,7 +74,7 @@ To run the **3DReVert** project, ensure your environment meets the following req
 - Python: **Recommended 3.10+**
 - PyTorch: **2.5.1**
 - Visual Studio: **2019**
-- 
+  
 </details>
 
 <details>
