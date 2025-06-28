@@ -3,8 +3,13 @@
 
 <p  align="center">  
  
-`Abstract`:Intraoperative imaging during Minimally Invasive Spine Surgery (MISS) typically relies on C-arm fluoroscopy, which generates 2D X-ray images of the vertebrae but lacks depth information. While preoperative CT scans offer detailed 3D anatomical insights, their use during surgery is often impractical due to limitations in space and equipment mobility, making the availability of real-time 3D anatomical context during the procedure incomplete and challenging.`Method`: We propose 3DReVert, a novel deep learning framework to obtain the surface reconstruction of the lumbar vertebrae from the 2D DRRs. Our generated dataset [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) consisting of DRR-Mesh pairs is used to train our model.
+Intraoperative imaging during Minimally Invasive Spine Surgery (MISS) typically relies on C-arm fluoroscopy, which generates 2D X-ray images of the vertebrae but lacks depth information. While preoperative CT scans offer detailed 3D anatomical insights, their use during surgery is often impractical due to limitations in space and equipment mobility, making the availability of real-time 3D anatomical context during the procedure incomplete and challenging. We propose 3DReVert, a novel deep learning framework to obtain the surface reconstruction of the lumbar vertebrae from the 2D DRRs. Our generated dataset [3DReVert-Dataset](https://drive.google.com/drive/folders/1YBzQlRE8mZOfmKDpoc9omabz6GCIIJbH?usp=sharing) consisting of DRR-Mesh pairs is used to train our model.
 
+<p align="center">
+  <img src="Methodology.jpg">
+</p>
+<div align = "center">
+  :small_orange_diamond: 3D-ReVert architecture consisting a ResNet-18 encoder and a DGCNN decoder
  </p>
 <h3 > <i>Index Terms</i> </h3> 
 
@@ -53,9 +58,5 @@ Mesh/
 ```
 </details>
 
-## <div align="center">Methodology</div>
-<p align="center">
-  <img src="Methodology.jpg">
-</p>
-<div align = "center">
-  :small_orange_diamond: 3D-ReVert architecture consisting a ResNet-18 encoder and a DGCNN decoder
+
+
