@@ -114,6 +114,7 @@ python setups.py install
 
 ## <div align="center">Usage</div>
 After downloading the dataset,
+
 :arrow_right: Change the path in 3DReVert.yaml
 ```bash
 pointcloud_path: 'Path/PointCloud'
