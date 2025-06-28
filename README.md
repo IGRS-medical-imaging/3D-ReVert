@@ -68,11 +68,13 @@ To run the **3DReVert** project, ensure your environment meets the following req
 
 <details>
 <summary><strong>✅ System Requirements</strong></summary>
+ 
 - GPU: **NVIDIA RTX 4090** or equivalent
 - CUDA: **Version 11.8**
 - Python: **Recommended 3.10+**
 - PyTorch: **2.5.1**
 - Visual Studio: **2019**
+- 
 </details>
 
 <details>
