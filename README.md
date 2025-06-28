@@ -111,9 +111,28 @@ pip install -r requirements.txt
 cd utils/ChamferDistancePytorch/chamfer3D
 python setups.py install
 ```
+
+## <div align="center">Usage</div>
+After downloading the dataset,
+:arrow_right: Change the path in 3DReVert.yaml
+```bash
+pointcloud_path: 'Path/PointCloud'
+image_path: 'Path/Renderings'
+cache_path: 'Path/cache'
+cache_path: 'Path/cache_test
+```
+:arrow_right: To train the model:
+```bash
+python 3DReVert_train.py -c cfgs/SVR.yaml -gpu 0
+```
+:arrow_right: To test the model:
+```bash
+python 3DReVert_val.py -c cfgs/SVR.yaml -gpu 0
+```
+
 ## <div align="center">Demo</div>
 
-To run the demo, 
+To run the demo for a single 2D DRR 
 
 ```bash
 python sit_demo.py -c configs/3DReVert.yaml -gpu 0
