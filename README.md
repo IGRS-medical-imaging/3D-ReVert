@@ -25,6 +25,7 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
 <h2 align="center">Dataset</h2>
 
 <details>
+ 
 <summary><b>Details</b></summary>
 
 You can download the dataset from the following link:  
