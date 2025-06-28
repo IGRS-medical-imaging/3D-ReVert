@@ -81,9 +81,10 @@ PyTorch3D is required and must be installed from source to match CUDA 11.8 and T
 
 ```bash
 pip install "git+https://github.com/facebookresearch/pytorch3d.git"
+</details>```
 
 > **Note:** Ensure `torch`, `torchvision`, and `torchaudio` are installed *before* installing PyTorch3D.
 
 ---
-</details>```
+
 
