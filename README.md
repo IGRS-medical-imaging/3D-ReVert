@@ -127,11 +127,11 @@ cache_path: 'Path/cache_test
 ```
 :arrow_right: To train the model:
 ```bash
-python 3DReVert_train.py -c cfgs/SVR.yaml -gpu 0
+python 3DReVert_train.py -c configs/3DReVert.yaml -gpu 0
 ```
 :arrow_right: To test the model:
 ```bash
-python 3DReVert_val.py -c cfgs/SVR.yaml -gpu 0
+python 3DReVert_val.py -c configs/3DReVert.yaml -gpu 0
 ```
 
 ## <div align="center">Demo</div>
