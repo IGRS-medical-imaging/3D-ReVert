@@ -88,6 +88,29 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 ---
 </details>
 
+## <div align="center">Installation</div>
+:arrow_right: Clone the Repository  
+```bash
+git clone [https://github.com/YourUsername/3D-ReVert.git](https://github.com/IGRS-medical-imaging/3D-ReVert.git)
+```
+:arrow_right: Navigate to the Project Directory 
+```bash
+cd 3D-ReVert
+```
+:arrow_right: Create and Activate a Virtual Environment  
+```bash
+python -m venv revert_env
+.\revert_env\Scripts\Activate
+```
+:arrow_right: Install the python dependencies
+```bash
+pip install -r requirements.txt
+```
+:arrow_right: Compile PyTorch 3rd party modules
+```bash
+cd utils/ChamferDistancePytorch/chamfer3D
+python setups.py install
+```
 ## <div align="center">Demo</div>
 
 To run the demo, 
