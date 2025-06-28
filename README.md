@@ -91,7 +91,7 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 ## <div align="center">Installation</div>
 :arrow_right: Clone the Repository  
 ```bash
-git clone [https://github.com/YourUsername/3D-ReVert.git](https://github.com/IGRS-medical-imaging/3D-ReVert.git)
+git clone https://github.com/YourUsername/3D-ReVert.git
 ```
 :arrow_right: Navigate to the Project Directory 
 ```bash
