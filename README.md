@@ -23,7 +23,7 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
 
 </div>
 <details>
-<summary><b>Workflow of 3D-ReVert</b></summary>
+<summary><b>📈 Workflow of 3D-ReVert</b></summary>
 
 <div align="center">
 
