@@ -24,9 +24,9 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
 </div>
 <details>
 <summary><b>Workflow of 3D-ReVert</b></summary>
-<p align="center">
+
 ![Workflow](Media/inputtooutput.png)
-</p>
+
 *Sample input DRR → output mesh pair from the dataset.*
 
 </details>
