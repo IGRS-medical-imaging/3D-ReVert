@@ -143,6 +143,7 @@ python sit_demo.py -c configs/3DReVert.yaml -gpu 0
 ```
 
 
+
 <h2 align="center">Results</h2>
 
 <table align="center">
@@ -153,13 +154,13 @@ python sit_demo.py -c configs/3DReVert.yaml -gpu 0
   </tr>
   <tr>
     <td align="center" style="padding: 10px;">
-      <img src="Media/drr_input.png" width="220" style="border-radius: 8px; box-shadow: 0 0 10px #ccc;">
+      <img src="Media/drr_input.png" width="300" style="border-radius: 8px;">
     </td>
     <td align="center" style="padding: 10px;">
-      <img src="Media/Pred.gif" width="220" style="border-radius: 8px; box-shadow: 0 0 10px #ccc;">
+      <img src="Media/Pred.gif" width="300" style="border-radius: 8px;">
     </td>
     <td align="center" style="padding: 10px;">
-      <img src="Media/gt_gif.gif" width="220" style="border-radius: 8px; box-shadow: 0 0 10px #ccc;">
+      <img src="Media/gt_gif.gif" width="300" style="border-radius: 8px;">
     </td>
   </tr>
 </table>
