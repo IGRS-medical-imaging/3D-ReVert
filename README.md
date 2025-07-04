@@ -29,7 +29,7 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
 
 <img src="Media/inputtooutput.png" width="90%" />
 
-<i>Sample input DRR → output mesh pair from the dataset.</i>
+<i> :small_orange_diamond: 3D-ReVert architecture consisting a ResNet-18 encoder and a DGCNN decoder</i>
 
 </div>
 
