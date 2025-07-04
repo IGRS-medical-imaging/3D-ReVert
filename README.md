@@ -31,7 +31,7 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
 *Sample input → output pair from the dataset.*
 
 </details>
-
+</div>
 </details>
 <h2 align="center">Dataset</h2>
 <details>
