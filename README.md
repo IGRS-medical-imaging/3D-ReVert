@@ -73,7 +73,7 @@ Mesh/
 ```
 </details>
 
-📥 **To know mpre about the Data Generation**: [3DReVert_DataGeneration](https://anonymous.4open.science/r/RadSurf-E373/README.md)
+📥 **To know more about the Data Generation**: [3DReVert_DataGeneration](https://anonymous.4open.science/r/RadSurf-E373/README.md)
 
 ## <div align="center">Pre-requisites</div>
 
