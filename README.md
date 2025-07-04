@@ -78,12 +78,12 @@ To run the **3DReVert** project, ensure your environment meets the following req
 </details>
 
 <details>
-<summary><strong>✅ PyTorch3D Installation</strong></summary>
+<summary><strong>✅ PyTorch Installation</strong></summary>
 
-PyTorch3D is required and must be installed from source to match CUDA 11.8 and Torch 2.5.1:
+PyTorch is required and must be installed from source to match CUDA 11.8 and Torch 2.5.1:
 
 ```bash
-pip install "git+https://github.com/facebookresearch/pytorch3d.git"
+conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1  pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
 > **Note:** Ensure `torch`, `torchvision`, and `torchaudio` are installed *before* installing PyTorch3D.
