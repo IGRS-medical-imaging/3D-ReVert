@@ -22,7 +22,7 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
  </p>
 
 </div>
-<details>
+
 <h2 align="center">Results</h2>
 
 <table align="center">
