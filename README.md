@@ -142,15 +142,19 @@ To run the demo for a single 2D DRR
 python sit_demo.py -c configs/3DReVert.yaml -gpu 0
 ```
 
+
+
 <h2 align="center">Results</h2>
 
-<p align="center">
-  <b>Input</b><br>
-  <img src="Media/drr_input.png" width="50%">
-</p>
-
-<p align="center">
-  <b>Predicted</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Ground Truth</b><br>
-  <img src="Media/Pred.gif" width="45%" style="margin-right: 10px;">
-  <img src="Media/gt_gif.gif" width="45%">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><b>Input (DRR)</b></td>
+    <td align="center"><b>Predicted</b></td>
+    <td align="center"><b>Ground Truth</b></td>
+  </tr>
+  <tr>
+    <td><img src="Media/drr_input.png" width="250"></td>
+    <td><img src="Media/Pred.gif" width="250"></td>
+    <td><img src="Media/gt_gif.gif" width="250"></td>
+  </tr>
+</table>
