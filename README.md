@@ -143,6 +143,6 @@ python sit_demo.py -c configs/3DReVert.yaml -gpu 0
 ```
 
 <p align="center">
-  <img src="media/Pred.gif" width="45%" />
-  <img src="media/gt_gif.gif" width="45%" />
+  <img src="Media/Pred.gif" width="45%" />
+  <img src="Media/gt_gif.gif" width="45%" />
 </p>
