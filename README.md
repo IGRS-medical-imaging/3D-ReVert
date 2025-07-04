@@ -143,18 +143,23 @@ python sit_demo.py -c configs/3DReVert.yaml -gpu 0
 ```
 
 
-
 <h2 align="center">Results</h2>
 
 <table align="center">
   <tr>
-    <td align="center"><b>Input (DRR)</b></td>
-    <td align="center"><b>Predicted</b></td>
-    <td align="center"><b>Ground Truth</b></td>
+    <th style="padding: 10px;">Input (DRR)</th>
+    <th style="padding: 10px;">Predicted</th>
+    <th style="padding: 10px;">Ground Truth</th>
   </tr>
   <tr>
-    <td><img src="Media/drr_input.png" width="250"></td>
-    <td><img src="Media/Pred.gif" width="250"></td>
-    <td><img src="Media/gt_gif.gif" width="250"></td>
+    <td align="center" style="padding: 10px;">
+      <img src="Media/drr_input.png" width="220" style="border-radius: 8px; box-shadow: 0 0 10px #ccc;">
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="Media/Pred.gif" width="220" style="border-radius: 8px; box-shadow: 0 0 10px #ccc;">
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="Media/gt_gif.gif" width="220" style="border-radius: 8px; box-shadow: 0 0 10px #ccc;">
+    </td>
   </tr>
 </table>
