@@ -21,8 +21,16 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
   :small_orange_diamond: 3D-ReVert architecture consisting a ResNet-18 encoder and a DGCNN decoder
  </p>
 
-</div>
 
+<details>
+<summary><b>Details</b></summary>
+
+![Dataset Sample](Media/inputtooutput.png)
+
+*Sample input-output pair from the dataset.*
+
+</details>
+</div>
 </details>
 <h2 align="center">Dataset</h2>
 <details>
@@ -86,7 +94,7 @@ PyTorch is required and must be installed from source to match CUDA 11.8 and Tor
 conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1  pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
-> **Note:** Ensure `torch`, `torchvision`, and `torchaudio` are installed *before* installing PyTorch3D.
+> **Note:** Ensure `torch`, `torchvision`, and `torchaudio` are installed *before* installing PyTorch.
 
 ---
 </details>
