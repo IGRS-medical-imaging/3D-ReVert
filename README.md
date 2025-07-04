@@ -23,15 +23,26 @@ Intraoperative imaging in Minimally Invasive Spine Surgery (MISS) commonly uses 
 
 </div>
 <details>
-<summary><b>📈 Workflow of 3D-ReVert</b></summary>
+<h2 align="center">Results</h2>
 
-<div align="center">
-
-<img src="Media/inputtooutput.png" width="90%" />
-
-<i> :small_orange_diamond: 3D-ReVert architecture consisting a ResNet-18 encoder and a DGCNN decoder</i>
-
-</div>
+<table align="center">
+  <tr>
+    <th style="padding: 10px;">Input (DRR)</th>
+    <th style="padding: 10px;">Predicted</th>
+    <th style="padding: 10px;">Ground Truth</th>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="Media/drr_input.png" width="300" style="border-radius: 8px;">
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="Media/Pred.gif" width="300" style="border-radius: 8px;">
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="Media/gt_gif.gif" width="300" style="border-radius: 8px;">
+    </td>
+  </tr>
+</table>
 
 </details>
 </div>
@@ -158,23 +169,4 @@ python sit_demo.py -c configs/3DReVert.yaml -gpu 0
 
 
 
-<h2 align="center">Results</h2>
 
-<table align="center">
-  <tr>
-    <th style="padding: 10px;">Input (DRR)</th>
-    <th style="padding: 10px;">Predicted</th>
-    <th style="padding: 10px;">Ground Truth</th>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 10px;">
-      <img src="Media/drr_input.png" width="300" style="border-radius: 8px;">
-    </td>
-    <td align="center" style="padding: 10px;">
-      <img src="Media/Pred.gif" width="300" style="border-radius: 8px;">
-    </td>
-    <td align="center" style="padding: 10px;">
-      <img src="Media/gt_gif.gif" width="300" style="border-radius: 8px;">
-    </td>
-  </tr>
-</table>
