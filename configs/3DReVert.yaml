@@ -60,7 +60,7 @@ random_translation: False
 anisotropic_scaling: False
 demo: False
 sample: False
-pointcloud_path: "D:/ShapeNetV1PointCloud/ShapeNetV1PointCloud"
-image_path: "D:/ShapeNetV1Renderings/ShapeNetV1Renderings"
-cache_path: "D:/ShapeNetCache_train"
-cache_path_test: "D:/ShapeNetcache_test"
+pointcloud_path: "D:/PointCloud/PointCloud"
+image_path: "D:/Renderings/Renderings"
+cache_path: "D:/Cache_train"
+cache_path_test: "D:/cache_test"
