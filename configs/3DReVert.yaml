@@ -2,7 +2,7 @@ batch_size: 24
 workers: 8
 nepoch: 300
 model_name: threeD_ReVert
-load_model: "D:/set/3DAttriFlow/bestl2_network.pth"
+load_model: "D:/set/bestl2_network.pth"
 start_epoch: 0
 num_points: 2048
 work_dir: log/
@@ -15,7 +15,7 @@ epoch_interval_to_save: 5
 epoch_interval_to_val: 1
 varying_constant: 0.01, 0.1, 0.5, 1
 varying_constant_epochs: 5, 15, 30
-dir_outpath: "D:/output_attriflow/"
+dir_outpath: "D:/output/"
 nk: 20
 nz: 128
 
